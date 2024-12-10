@@ -50,7 +50,7 @@ def count_and_size(a):
 
 # """Вывести имя вашей ОС"""
 print(f"Имя вашей Операционной Системы: {os.name}")
-a = input("Введите путь до папки, в которой вы находитесь: ") # C:\\Users\\Strug\\Desktop\\AberonRepos\\Lesson 9\\task_1\\Work
+a = input("Введите путь до папки, в которой вы находитесь: ") # C:\\Users\\Strug\\Desktop\\AberonReposit\\Lesson 9\\task_1\\Work
 sort_files(a)
 count_and_size(a)
 
