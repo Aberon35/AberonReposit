@@ -14,7 +14,7 @@ def censor_file(file_to_censor, stop_words_file):
     print(censored_text)
 
 
-file_to_censor = input("Введите путь к файлу для цензуры: ")
+file_to_cens = input("Введите путь к файлу для цензуры: ")
 # C:\\Users\\Strug\\Desktop\\AberonReposit\\Lesson 9\\task_4\\text.txt
 stop_words_file = "stop_words.txt"
-censor_file(file_to_censor, stop_words_file)
+censor_file(file_to_cens, stop_words_file)
